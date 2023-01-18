@@ -54,7 +54,7 @@ const Navbar = ({
               setSelectedPage={setSelectedPage}
             />
             <Link
-              page="skills"
+              page="Experience"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
