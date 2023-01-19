@@ -75,15 +75,22 @@ const Projects = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          {/* ROW 1 */}
-          <a href="https://yt-clone-phi.vercel.app/">
+          <a
+            href="https://yt-clone-phi.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Project
               title="Youtube Clone"
               desc="ReactJS Redux(toolkit) GoogleCloudApi TailwindCss"
               images={Project1}
             />
           </a>
-          <a href="https://kul-news.vercel.app/">
+          <a
+            href="https://kul-news.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Project
               title="Kul News"
               desc="Nextjs TailwindCss Stepzen Graphql
@@ -91,7 +98,11 @@ const Projects = () => {
               images={Project2}
             />
           </a>
-          <a href="https://kul-gym.vercel.app/">
+          <a
+            href="https://kul-gym.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Project
               title="Kul Gym"
               desc="ReactJS MaterialUi RapidApi

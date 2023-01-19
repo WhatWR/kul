@@ -88,7 +88,13 @@ const Landing = ({ setSelectedPage }: Props) => {
           </AnchorLink>
           <div className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5">
             <div className="bg-deep-blue hover:text-red transition duration-500 w-full h-full flex items-center justify-center px-10 font-playfair">
-              <a href="./../assets/Kul_Boonanake_Resume.pdf">Resume</a>
+              <a
+                href="https://drive.google.com/file/d/1HAPtGIbeVTaDezjOy6XpQd2db1cm4rCx/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Resume
+              </a>
             </div>
           </div>
         </motion.div>
