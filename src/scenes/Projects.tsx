@@ -76,24 +76,29 @@ const Projects = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           {/* ROW 1 */}
-
-          <Project
-            title="Youtube Clone"
-            desc="ReactJS Redux(toolkit) GoogleCloudApi TailwindCss"
-            images={Project1}
-          />
-          <Project
-            title="Kul News"
-            desc="Nextjs TailwindCss Stepzen Graphql
+          <a href="https://yt-clone-phi.vercel.app/">
+            <Project
+              title="Youtube Clone"
+              desc="ReactJS Redux(toolkit) GoogleCloudApi TailwindCss"
+              images={Project1}
+            />
+          </a>
+          <a href="https://kul-news.vercel.app/">
+            <Project
+              title="Kul News"
+              desc="Nextjs TailwindCss Stepzen Graphql
               "
-            images={Project2}
-          />
-          <Project
-            title="Kul Gym"
-            desc="ReactJS MaterialUi RapidApi
+              images={Project2}
+            />
+          </a>
+          <a href="https://kul-gym.vercel.app/">
+            <Project
+              title="Kul Gym"
+              desc="ReactJS MaterialUi RapidApi
               "
-            images={Project3}
-          />
+              images={Project3}
+            />
+          </a>
         </motion.div>
       </div>
     </section>
