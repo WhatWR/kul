@@ -82,7 +82,7 @@ const Projects = () => {
           >
             <Project
               title="Youtube Clone"
-              desc="ReactJS Redux(toolkit) GoogleCloudApi TailwindCss"
+              desc="Online video sharing App"
               images={Project1}
             />
           </a>
@@ -93,7 +93,7 @@ const Projects = () => {
           >
             <Project
               title="Kul News"
-              desc="Nextjs TailwindCss Stepzen Graphql
+              desc="Breaking new App
               "
               images={Project2}
             />
@@ -105,7 +105,7 @@ const Projects = () => {
           >
             <Project
               title="Kul Gym"
-              desc="ReactJS MaterialUi RapidApi
+              desc="Gym excersices App
               "
               images={Project3}
             />

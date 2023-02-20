@@ -1,5 +1,4 @@
 import LineGradient from '../components/LineGradient'
-import useMediaQuery from '../hooks/useMediaQuery'
 import { motion } from 'framer-motion'
 
 const MySkills = () => {
@@ -53,7 +52,7 @@ const MySkills = () => {
             />
           </div>
           <ul className="list-disc mt-5">
-            <li>Monitering Filght DashBoard Web </li>
+            <li>Build Monitering Filght DashBoard Web </li>
             <li>Razzle Mobx Strapi</li>
           </ul>
         </motion.div>
