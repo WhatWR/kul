@@ -18,7 +18,7 @@ const DotGroup = ({ selectedPage, setSelectedPage }: Props) => {
         onClick={() => setSelectedPage('home')}
       />
       <AnchorLink
-        href="#skills"
+        href="#experience"
         className={`${
           selectedPage === 'skills' ? selectedStyles : 'bg-dark-gray'
         } w-3 h-3 rounded-full`}
