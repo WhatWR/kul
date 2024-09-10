@@ -1,7 +1,7 @@
 import useMediaQuery from '../hooks/useMediaQuery'
 import { motion } from 'framer-motion'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Profile from './../assets/Profile1.jpg'
+import Profile from './../assets/Profile.png'
 import SocialMediaIcons from '../components/SocialMediaIcons'
 
 type Props = {
