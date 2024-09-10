@@ -1,7 +1,7 @@
 import useMediaQuery from '../hooks/useMediaQuery'
 import { motion } from 'framer-motion'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import Profile from './../assets/Profile.png'
+import Profile from './../assets/Profile1.jpg'
 import SocialMediaIcons from '../components/SocialMediaIcons'
 
 type Props = {
@@ -25,14 +25,14 @@ const Landing = ({ setSelectedPage }: Props) => {
           >
             <img
               alt="profile"
-              className="hover:filter hover:contrast-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
+              className="hover:filter hover:contrast-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px] max-h-[600px]"
               src={Profile}
             />
           </div>
         ) : (
           <img
             alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px]"
+            className="z-10 w-full max-w-[100px] md:max-w-[200px] max-h-[600px]"
             src={Profile}
           />
         )}
